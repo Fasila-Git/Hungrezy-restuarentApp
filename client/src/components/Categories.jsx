@@ -108,7 +108,6 @@ function Categories() {
               key={f._id}
               className="p-4 w-60 h-60 m-4 bg-blue-300 rounded-3xl lg:w-1/4 md:w-1/2 sm:w-full"
             >
-              console.log(f);
               <div className="flex flex-wrap justify-around ">
                 <div className="flex  justify-between ">
                   <AiOutlineHeart className=" pl-2 w-10 h-10" />

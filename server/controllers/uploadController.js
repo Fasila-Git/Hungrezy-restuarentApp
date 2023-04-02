@@ -18,7 +18,6 @@ uploadController.post(
   verifyToken,
   upload.single("image"),
   (req, res) => {
-    console.log("upload");
     try {
       return res.status(201).json({ msg: "Successfully uploaded file" });
     } catch (error) {

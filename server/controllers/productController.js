@@ -4,7 +4,6 @@ const { verifyToken, verifyTokenAdmin } = require("../middlewares/verifyToken");
 
 //get all product
 productController.get("/", async (req, res) => {
-  console.log("Reaced");
   try {
     const products = await Product.find();
     return res.status(200).json(products);
